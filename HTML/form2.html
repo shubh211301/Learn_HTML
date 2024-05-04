@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Job Application Form</title>
+</head>
+<body>
+    <form>
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br/>
+            <br/>
+            <label for="email">Email Id:</label>
+            <input type="email" name="email" id="email">
+            <br/>
+            <br/>
+            <label for="phonenumber">Phone No:</label>
+            <input type="tel" name="phonenumbers" id="phonenumber">
+            <br/>
+            <br/>
+            <label for="resume">Resume:</label>
+            <br>
+            <br>
+            <input type="file" name="choose" id="resume">
+            <br>
+            <br>
+            <label for="select">Experience(years):</label>
+            <br>
+            <br>
+            <input type="number" name="" id="select" max="50" min="0">
+            <br>
+            <fieldset>
+                <legend>Skills:</legend>
+            <input type="checkbox" name="choose" id="html">
+             <label for="choose">HTML</label>
+             <br/>
+             <br/>
+             <input type="checkbox" name="choose" id="css">
+             <label for="css">CSS</label>
+             <br/>
+             <br/>
+             <input type="checkbox" name="choose" id="javascript">
+             <label for="javascript">JavaScript</label>
+            </fieldset>
+              
+             <label for="educton">Highest Education:</label>
+             <br>
+             <select name="education" id="education">
+
+                <option value="highschool">Highschool</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="other">Other</option>
+             </select>
+                <br>
+                <label for="choose">Availability:</label>
+                <br>
+                
+                <label for="select">Full-time</label>
+                <input type="checkbox" id="select">
+                <br>
+                 
+                <label for="select">Part-time</label>
+                <input type="checkbox" id="select">
+                <br> 
+                <label for="comment">Additional Comments:</label>
+                <br>
+                <textarea name="" id="comment" cols="30" rows="10"></textarea>
+                <br>
+                <input type="button" id="button" value="Submit">
+             
+             
+    </form>
+</body>
+</html>
